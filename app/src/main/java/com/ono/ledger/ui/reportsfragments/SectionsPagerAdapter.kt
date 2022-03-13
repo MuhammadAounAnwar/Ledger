@@ -1,5 +1,6 @@
 package com.ono.ledger.ui.reportsfragments
 
+import android.app.Activity
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -20,9 +21,11 @@ private val TAB_TITLES = arrayOf(
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
  * one of the sections/tabs/pages.
  */
-class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) : FragmentPagerAdapter(fm) {
+class SectionsPagerAdapter(private val context: Context, activity: Activity, fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
+    private lateinit var activity: Activity
     override fun getItem(position: Int): Fragment {
+
         var fragment: Fragment? = null
 
         when (position) {
@@ -30,7 +33,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) : 
                 fragment = InvoiceTransactionFragment.newInstance()
             }
             1 -> {
-                fragment = VouchersFragment.newInstance()
+                fragment = VouchersFragment.newInstance(context = context)
             }
             2 -> {
                 fragment = ReportsFragment.newInstance()

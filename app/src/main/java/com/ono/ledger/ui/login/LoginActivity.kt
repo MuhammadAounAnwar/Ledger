@@ -3,14 +3,11 @@ package com.ono.ledger.ui.login
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.view.Window
 import android.widget.Button
 import android.widget.EditText
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.ono.ledger.R
-import com.ono.ledger.dialogs.CustomDialog
 import com.ono.ledger.ui.ReportsActivity
 import com.ono.ledger.ui.resetcred.ResetCredentialsOptionsActivity
 
@@ -44,8 +41,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(p0: View?) {
         when (p0?.id) {
             R.id.btn_login -> {
-//                changeActivity()
-                openCustomDialogBox()
+                changeActivity()
+//                openCustomDialogBox()
             }
             R.id.tv_forgot_credentials -> {
                 val intent = Intent(this, ResetCredentialsOptionsActivity::class.java)
@@ -59,13 +56,12 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(intent)
     }
 
+
     private fun openCustomDialogBox() {
-        val customDialog = CustomDialog(this, this, 0)
-//        customDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-        customDialog.show()
-        val window: Window = customDialog.window!!
-        window.setLayout(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+//        val customDialog = CustomDialog(this, this, DialogType.ACCOUNT_LEDGER_REPORT)
+////        customDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+//        customDialog.show()
+//        val window: Window = customDialog.window!!
+//        window.setLayout(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
     }
-
-
 }
