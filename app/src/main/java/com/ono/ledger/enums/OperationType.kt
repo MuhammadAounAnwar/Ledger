@@ -1,0 +1,5 @@
+package com.ono.ledger.enums
+
+enum class OperationType {
+    STRING, INT, DOUBLE, DATE, ALPHABETS, ALPHA_NUMERIC, NUMERIC, STRING_TO_CHAR_ARRAY, CHAR_ARRAY_TO_STRING, STRING_TO_INT, INT_TO_STRING
+}

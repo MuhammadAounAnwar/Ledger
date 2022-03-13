@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/account_ledger_report.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/activity_login.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/activity_main.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/activity_reports.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/activity_reset_credentials.xml" value="0.25" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/activity_reset_credentials_options.xml" value="0.33061594202898553" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/b_t_r.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/buttons_layout.xml" value="0.33061594202898553" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/cash_book.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/dates_layout.xml" value="0.33061594202898553" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/fragment_invoice.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/fragment_reports.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/list_group.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/list_item.xml" value="0.1287037037037037" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/net_sale_invoice_vendor_wise.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/net_sale_r_invoice_vendor_wise.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/reports_fragment.xml" value="0.34148550724637683" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/return_ledger.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/spinners_layout.xml" value="0.33061594202898553" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/stock_and_sales_report.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/supply_ledger.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/transactin_summary.xml" value="0.33" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/voucher_printing.xml" value="0.37083333333333335" />
+        <entry key="..\:/WorkingProjects/Shehroz/Ledger/app/src/main/res/layout/vouchers_fragment.xml" value="0.34148550724637683" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

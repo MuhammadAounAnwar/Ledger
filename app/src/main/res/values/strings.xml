@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ledger</string>
+    <string name="title_activity_reports">ReportsActivity</string>
+    <string name="tab_text_1">Invoice Transaction</string>
+    <string name="tab_text_2">Vouchers</string>
+    <string name="tab_text_3">Reports</string>
+</resources>
